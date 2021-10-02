@@ -1,4 +1,4 @@
-abstract class Vehicle {
+abstract class Vehicle implements Maintainable {
     private String name;
     private int max_speed;
 
