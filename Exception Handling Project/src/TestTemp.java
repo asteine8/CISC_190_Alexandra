@@ -10,7 +10,7 @@ public class TestTemp {
         myFridge.setTemp(TEMP_1);
         System.out.println("Temperature is "+(!myFridge.tempNormal(TEMP_1)?"not ":"")+"normal");
 
-        // Do stuff for 35 degrees
+        // Do stuff for 8 degrees
         System.out.println("Setting temperature to "+TEMP_2+" degrees");
         myFridge.setTemp(TEMP_2);
         System.out.println("Temperature is "+(!myFridge.tempNormal(TEMP_2)?"not ":"")+"normal");

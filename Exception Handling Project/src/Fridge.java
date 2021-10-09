@@ -3,10 +3,6 @@ import org.omg.PortableInterceptor.NON_EXISTENT;
 public class Fridge {
     private int temperature;
 
-    public Fridge() {
-
-    }
-
     public void setTemp(int temp) {
         temperature = temp;
     }
